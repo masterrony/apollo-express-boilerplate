@@ -1,0 +1,11 @@
+scalar Date
+scalar Time
+scalar DateTime
+
+type Query {
+    sayHello(name: String!): String!
+}
+
+type Mutation {
+    sayHello(name: String!): String!
+}
